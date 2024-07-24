@@ -1,0 +1,287 @@
+
+
+.viewall {
+    margin-left: 1120px;
+    margin-top: 20px;
+    background-color: rgb(64, 67, 70);
+    color: white;
+    font-size: medium;
+    box-shadow: #212A2F;
+    border-radius: 4px;
+    padding: 4px;
+    border: rgb(17, 40, 63);
+}
+
+.batches__h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.batch-count {
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #475569;
+    padding: 5px 10px;
+    border-radius: 300px;
+}
+
+.batch-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.batch-box {
+    display: flex;
+    align-items: center;
+    background-color: #212A2F;
+    cursor: pointer;
+    padding: 20px;
+    gap: 20px;
+}
+
+.batch-box:hover {
+    background-color: #27351f;
+}
+
+.batch-image {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.batch-image:hover {
+    transform: scale(1.1);
+}
+
+.batch-details {
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.batch-details h2 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.batch-details h4 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.batch-details p {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.batch-free {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+}
+
+.spanfree2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+.span3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.span4 {
+    text-decoration: line-through;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.btn5 {
+    padding: 6px 4px;
+    background-color: #fcbc57;
+    color: #111;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.eighteen {
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #475569;
+    padding: 5px 10px;
+    border-radius: 300px;
+}
+
+.content-header {
+    outline: none;
+    background-color: #212A2F;
+    color: white;
+    padding: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.content-slider {
+    gap: -100px;
+    padding: 60px;
+    min-width: 40%;
+    height: 100%;
+}
+
+.content-box {
+    width: 160px;
+    height: 270px;
+    background-color: #475569;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    border: 1px solid #807b7b;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 14px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.htitle {
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.content-image {
+    width: 60%;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.content-box:hover {
+    transition: 0.5s;
+    transform: translateY(-3%);
+}
+
+.slider-boxes {
+    display: inline-flex !important;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: #475569;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: -24%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.arrow.next {
+    right: 40px;
+}
+
+.arrow.prev {
+    left: 1180px;
+}
+
+
+@media (max-width: 767px) {
+    
+
+    .viewall {
+        margin-left: 340px;
+        text-align: center;
+    }
+
+    .batches__h1 {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .batch-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .batch-image {
+        width: 100%;
+    }
+
+    .batch-details h2 {
+        font-size: 18px;
+    }
+
+    .batch-details h4 {
+        font-size: 14px;
+    }
+
+    .batch-details p {
+        font-size: 16px;
+    }
+
+    .content-slider {
+        padding: 20px;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    
+        .arrow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            background: #475569;
+            color: #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            position: absolute;
+            top: -11%;
+            transform: translateY(-50%);
+            z-index: 2;
+            margin-left: 40px;
+            gap:10px;   
+        }
+    
+    .arrow.next {
+        right: 24px;
+    }
+    
+    .arrow.prev {
+        left: 390px;
+    }
+}
